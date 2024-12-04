@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the model
-model = load_model(r'C:\Users\yogaj\OneDrive\Dokumen\machie learning\Tugas6_X_YYYYY\model_mobilenet.h5')
+model = load_model(r'model_mobilenet.h5')
 class_names = ['Matang', 'Mentah']
 
 # Function to classify image
